@@ -1,12 +1,60 @@
 header {
     section{
         .navbar{
-            .myName{
+            .myName{}
+            .downloadButton{}
+        }
+    }
+}
+main{
+    section .hero{
+        .hero-banner-container{
+            .hero-image-container{
+                .hero-image{}
+                }
+            .hero-title-container{
+                .heroTitle{}
+                .shortDescription{}
+                .hero-btn{}
+            }
+        }
+    }
 
+    section .banner{
+        .bannerTitle{
+            .heading-text{}
+            .bannerTitleDescription{}
+        }
+        .banner-cards-container{
+            .banner-card-1 inverse{
+                .card-content-1{}
+                .card-figure-1{}
             }
-            .downloadButton{
-                
+            .banner-card-2 reverse{
+                .card-content-2{}
+                .card-figure-2{}
             }
+            .banner-card-3 inverse{
+                .card-content-3{}
+                .card-figure-3{}
+            }
+        }
+        .inspiration{
+            .inspirationTitle{
+                .heading-text
+            }
+            .inspirationVideo{
+                <iframe>
+            }
+        }
+        .current-Target{
+            .current-target-title{}
+            .current-target-cards-container{
+                .current-card{}
+            }
+        }
+        .myNextTarget{
+            
         }
     }
 }
