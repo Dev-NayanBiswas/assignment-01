@@ -3,8 +3,38 @@
 * {
   box-sizing: border-box;
 }
+
+/* Cards Shared Css */
+.reverse{
+    box-shadow: 10px 0px 20px -4px rgba(95, 93, 93, 0.12);
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.inverse{
+    box-shadow: -10px 0px 20px -4px rgba(95, 93, 93, 0.12);
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.card-btn{
+    padding: 15px 25px;
+font-weight: 300;
+font-size: large;
+}
+/* Cards shared css ends here */
+
 body {
-  font-family: "Azeret Mono", monospace;
+    font-family: Azeret Mono;
   background-color: azure;
   color: rgb(13, 19, 33);
   margin: 0;
@@ -56,7 +86,7 @@ body {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  /* justify-content: flex-start; */
   padding: 40px;
 }
 
@@ -75,25 +105,24 @@ body {
     height: 60%;
     margin-top: 0px;
   border: 5px dotted green;
-  height: 35%;
   text-align: center;
 }
 
 
 .heroTitle {
-  font-size: 2.5em;
+  font-size: 3em;
   font-weight: 800;
   text-align: center;
-  line-height: 1em;
+  line-height: 0.9em;
 letter-spacing: 0%;
-margin-bottom: 10px;
+margin: 20px 0px 5px;
 }
 .shortDescription{
     margin-bottom: 20px;
 }
 
 .hero-btn {
-margin-top:5px;
+margin:5px;
   border-radius: 8px;
   background: black;
   color: white;
@@ -101,4 +130,39 @@ margin-top:5px;
   font-size: medium;
   padding: 1.5em 2em;
   border: none;
+  cursor: pointer;
 }
+
+.hero-btn>a{
+    text-decoration: none;
+    color: azure;
+}
+
+.banner{
+    background-color:rgba(251, 249, 249, 0.846);
+    opacity: 10px;
+    padding: 50px 0px;
+    margin: 50px auto;
+    max-width: 70vw;
+    border-radius: 1em;
+}
+
+.bannerTitle{
+    text-align: center;
+    margin:50px auto ;
+}
+.titleHead{
+    font-size: 2em;
+font-weight: 700;
+}
+
+.banner-cards-container{
+    /* border: 4px dashed blue; */
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
