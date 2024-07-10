@@ -32,6 +32,7 @@
   margin: 0 auto;
   padding: 30px;
   background-color: inherit;
+  text-align: right;
 }
 
 .inverse {
@@ -145,7 +146,10 @@ body {
   margin: 20px 0px 5px;
 }
 .shortDescription {
+  border: 2px solid green;
   margin-bottom: 20px;
+  
+  padding: 20px;
 }
 
 .hero-btn {
@@ -266,6 +270,10 @@ iframe {
 
   .support-container{
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 40px;
     height: 40vh;
     width: 70vw;
     margin: 0 auto;
@@ -326,4 +334,20 @@ cursor: pointer;
     };
 
 
+  }
+
+  .description-text{
+    text-align: left;
+    padding: 20px 0px;
+  }
+
+  .bannerTitleDescription{
+    text-align: justify;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .reverse>div>p{
+    text-align: right;
+    padding: 20px 0px;
   }
