@@ -165,6 +165,7 @@ body {
   color: azure;
 }
 
+
 .banner {
   background-color: rgba(13, 19, 33, 0.02);
   opacity: 10px;
@@ -216,12 +217,13 @@ iframe {
     display: flex;
     justify-content: space-evenly;
     gap: 30px;
-    padding: 40px;
+    padding: 40px auto;
 }
 .current-Target {
   margin: 50px auto;
   border: 4px solid green;
   max-width: 70vw;
+  padding: 40px;
 }
 
 .current-card {
@@ -264,7 +266,7 @@ iframe {
 
   .support-container{
     text-align: center;
-    height: 30vh;
+    height: 40vh;
     width: 70vw;
     margin: 0 auto;
     border: 2px solid maroon;
@@ -292,4 +294,36 @@ iframe {
     font-size: 15px;
 font-weight: 600;
 cursor: pointer;
+  }
+
+  footer{
+    width: 100vw;
+    height: 10vh;
+    background-color: rgba(40, 41, 42, 0.05);
+    margin-top: 100px;
+  }
+  .footer-container{
+    width: 70vw;
+    height: 10vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-container{
+    p{
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing:1px;
+    }
+    ul{display: flex;
+    column-gap: 20px;
+    li{
+        list-style: none;
+    }}
+    a{
+        text-decoration: none
+    };
+
+
   }

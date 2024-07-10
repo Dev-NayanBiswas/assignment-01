@@ -54,7 +54,27 @@ main{
             }
         }
         .myNextTarget{
-            
+            .nextTargetTitle{
+                .heading-text
+            }
+            .nextTargetCards-container{
+                .next-card{}*3
+            }
         }
+        .support-container{
+            .support-title{
+                .heading-text
+            }
+            .support-form{
+                input type=text
+                input type=submit
+            }
+        }
+    }
+}
+footer{
+    .footer-container{
+        p{}
+        ul>li{}
     }
 }
