@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: Azeret Mono;
+  background-color: rgba(160, 187, 249, 0);
+  color: rgb(13, 19, 33);
+  margin: 0;
+  padding: 0;
+}
+
 /* Cards Shared Css */
 .purple{
       background-color: rgba(255, 76, 30, 0.05);
@@ -21,6 +29,20 @@
   font-family: Azeret Mono;
   font-size: 24px;
   font-weight: 800;
+}
+.card-figure-1{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card-content-1>a>button{
+  cursor: pointer;
+  font-weight: 500;
+  background-color:rgba(13, 19, 33, 0.02);
+  border: 0.5 px gray;
+  opacity: 0.6;
+  
 }
 .reverse {
   box-shadow: 10px 0px 20px -4px rgba(95, 93, 93, 0.12);
@@ -63,21 +85,17 @@
 }
 /* Cards shared css ends here */
 
-body {
-  font-family: Azeret Mono;
-  background-color: azure;
-  color: rgb(13, 19, 33);
-  margin: 0;
-  padding: 0;
-}
+
 .navbar {
+  width: 80vw;
+  margin: 0 auto;
   background-color: rgba(255, 255, 255, 0.322);
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 50px;
   height: 5vh;
-  border: 2px solid gray;
+  /* border: 2px solid gray; */
 }
 
 .name {
@@ -88,14 +106,13 @@ body {
 }
 
 .downloadButton {
-  padding: 17px 24px 17px 24px;
-  border: 1px solid rgb(94, 115, 162);
+  padding: 15px 20px;
+  /* border: 1px solid rgb(94, 115, 162); */
   border-radius: 8px;
-  opacity: 0.8;
-  font-size: 1.5em;
+  border: none;
+  font-size: 1em;
   font-weight: 600;
-  line-height: 1.5em;
-  box-shadow: 0px 2px inset;
+  box-shadow: 0.5px 1.5px 2px inset;
   cursor: pointer;
 }
 
@@ -104,13 +121,13 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   width: 100vw;
   height: 80vh;
 }
 
 .hero-banner-container {
-  border: 5px dotted green;
+  /* border: 5px dotted green; */
   width: 90%;
   height: 100%;
   margin: 0 auto;
@@ -122,7 +139,7 @@ body {
 
 .hero-image-container {
   height: 40%;
-  border: 5px dotted green;
+  /* border: 5px dotted green; */
   text-align: center;
 }
 .hero-image {
@@ -132,7 +149,7 @@ body {
 .hero-title-container {
   height: 60%;
   margin-top: 0px;
-  border: 5px dotted green;
+  /* border: 5px dotted green; */
   text-align: center;
 }
 
@@ -146,7 +163,7 @@ body {
   margin: 20px 0px 5px;
 }
 .shortDescription {
-  border: 2px solid green;
+  /* border: 2px solid green; */
   margin-bottom: 20px;
   
   padding: 20px;
@@ -197,7 +214,7 @@ body {
 .inspiration {
   margin: 50px auto;
   padding: 20px;
-  border: 4px solid green;
+  /* border: 4px solid green; */
   max-width: 70vw;
 }
 p {
@@ -225,7 +242,7 @@ iframe {
 }
 .current-Target {
   margin: 50px auto;
-  border: 4px solid green;
+  /* border: 4px solid green; */
   max-width: 70vw;
   padding: 40px;
 }
@@ -245,7 +262,7 @@ iframe {
 
 .nextTarget{
     margin: 50px auto;
-  border: 4px solid green;
+  /* border: 4px solid green; */
   max-width: 70vw;
 }
 
@@ -277,7 +294,7 @@ iframe {
     height: 40vh;
     width: 70vw;
     margin: 0 auto;
-    border: 2px solid maroon;
+    /* border: 2px solid maroon; */
     border-radius: 10px;
     background-image:linear-gradient(to right, rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),linear-gradient(to left, rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.8)),url(./assets/handshake.jpg);
     
